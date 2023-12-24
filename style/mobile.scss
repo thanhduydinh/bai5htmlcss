@@ -1,0 +1,117 @@
+@media only screen and (max-width: 730px) {
+    header {
+        height: 550px;
+        .navbar {
+            width: 100%;
+
+            .navbar_title {
+                display: none;
+            }
+
+            .fa-bars {
+                display: block;
+                font-size: 1.9rem;
+                margin-right: 20px;
+            }
+        }
+
+        .navbar_content {
+            margin: 14% 0 0 2%;
+            width: 80%;
+
+            h1 {
+                font-size: 2.4rem;
+            }
+        }
+    }
+
+    .about {
+        padding: 0;
+
+        .about_contents {
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin-bottom: 70px;
+            top: -100px;
+            padding: 8%;
+            width: 90%;
+
+            h1 {
+                height: 15px;
+            }
+
+            h3 {
+                display: none;
+            }
+
+            .about_img {
+                height: 292px;
+                .img-main {
+                    position: absolute;
+                    top: 0;
+                    left: -11%;
+                    width: 122%;
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .img-layer {
+                    width: 40px;
+                }
+            }
+        }
+        li:nth-child(4) {
+            h3{
+                height: 500px;
+                display: block;
+                font-size: 1.2rem;
+            }
+        } 
+    }
+
+    footer {
+        .content {
+            padding: 50px 10px 10px;
+        }
+
+        .university {
+            h1 {
+                font-size: 2rem;
+                width: 44%;
+            }
+
+            p{
+                padding-bottom: 50px;
+                border-bottom: 1px solid #ccc;
+            }
+            margin-bottom: 40px;
+        }
+
+        .contact {
+            border-left: none;
+            border-right: none;
+            .contact_title {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            h1 {
+                font-size: 2rem;
+                width: 44%;
+            }
+
+            form {
+                padding-bottom: 50px;
+                border-bottom: 1px solid #ccc;
+            }
+            margin-bottom: 40px;
+        }
+
+        .produce {
+            padding: 0px 40px
+        }
+    }
+}
